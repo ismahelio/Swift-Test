@@ -47,3 +47,16 @@ Hello'Swift 4'
 !	Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true, then the Logical NOT operator will make it false.	
 !(A && B) is true.
 
+/ string length
+var varA = "Hello, Swift 4!"
+print( "\(varA), length is \((varA.count))" )
+
+/ string iteration
+for chars in "ThisString" {
+   print(chars, terminator: " ")
+}
+
+/ String to int
+variable_string.toInt()
+
+
