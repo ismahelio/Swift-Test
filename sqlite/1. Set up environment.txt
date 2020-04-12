@@ -1,4 +1,9 @@
 1. Enable sqlite inside XCODE:
+  1. click at the project in the rigth screen
+  2. go to Build Phases
+  3. link binary with libraries
+  4. select libsqlite3.tbd
+  
 2. Download FMDB from github
 3. To set up FMDB create a new Group inside the project. Call it FMDB and add all the code from git: fmdb (folder named fmdb)
 4. It will ask you to create a header: yes.
