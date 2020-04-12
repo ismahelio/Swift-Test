@@ -1,0 +1,7 @@
+1. Enable sqlite inside XCODE:
+2. Download FMDB from github
+3. To set up FMDB create a new Group inside the project. Call it FMDB and add all the code from git: fmdb (folder named fmdb)
+4. It will ask you to create a header: yes.
+5. Add #import "FMDB.h" inside the header file
+6. File/new/file/cocoa touch sub class/ name it DBManager and has to be subclass of NSObject
+
