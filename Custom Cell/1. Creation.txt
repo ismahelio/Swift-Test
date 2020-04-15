@@ -1,3 +1,12 @@
 1. File / New / File / New Cocoa Touch Class
-2. Name the file and subclass of UITableView Cell and "Also Create XIB File"
-3. Edit the table in the editor using XIB file
+2. Name the file and subclass of UITableView Cell. In this case ISCell
+3. Inside the storyboard place a TableView and a TableViewCell
+4. Assign the table to the ISCell class from the properties panel to the right
+5. Name the ISCell with an identifier also in the properties
+6. Fill the cell with all the items you want. This items will have to be referenced inside the ISCell class.
+
+7. The code to generate the tables must be created inside the viewcontroller.
+8. We need to drag the table to the viewcontroller script to reference it as well in order to make it work:
+  In this case as tableview. 
+  tableview.delegate = self
+  tableview.dataSource = self
