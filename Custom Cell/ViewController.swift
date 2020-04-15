@@ -48,4 +48,14 @@ extension ViewController_02: UITableViewDataSource, UITableViewDelegate{
         
         return cell
 }
+    
+    // This function returns the index of the row you are selecting when clicking on it. It can be used to create a button from the cell for example by running perform segue with identifier
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print(indexPath.row)
+        
+        //performSegueWithIdentifier("nameOfTheSegue", sender: self)
+    }
+    
+    
+    
 }
